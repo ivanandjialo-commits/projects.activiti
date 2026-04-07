@@ -3,137 +3,71 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>My portfolio</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-<style>
-html {
-  scroll-behavior: smooth;
-}
+	<title>Web page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <style>
+        .top{
+            background: url('https://www.cathaypacific.com/content/dam/focal-point/cx/inspiration/2024/11/11_magnificent_Unesco_sites_in_the_Chinese_Mainland-Traditional_Chinese_ancient_town-Eric_Yang-Gettyimages-HERO.renditionimage.1700.600.jpg');
+            height: 400px;
+            color: white;
+        }
 
-body {
-  background-image: url('https://codetheweb.blog/assets/img/posts/css-advanced-background-images/bg-size-cover.png');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed; 
-  color: white;
-}
-
-.overlay {
-  background: rgba(0,0,0,0.6);
-  padding: 50px 0;
-}
-</style>
+        .card-text{
+            font-size: 14px;
+        }
+    </style>
+</head>
 <body>
-        <div id="navbarContainer" class="container-fluid bg-primary">
-            <nav class="navbar navbar-expand-lg pt-0">
-                <div class="container navbar-dark">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+    <div class="top d-flex justify-content-center align-items-center text-center">
+        <h1>Welcome to China</h1>
+    </div>
+    
 
-                    <a href="#" class="navbar-brand">My portfolio</a>
+    <ul class="navbar bg-warning justify-content-around p-2">
+        <li class="nav-item"><a href="#" class="nav-link text-white">Home</a></li>
+        <li class="nav-item"><a class="nav-link text-blue" href="#" >landscape</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text-red" >Food</a></li>
+        <li class="nav-item"><a href="#" class="nav-link" class="text-blue"></a></li>
+    </ul>
+    <div class="container text-center">
+        <span class="tag">
+            <h5>China Landscape</h5>
+        </span>
+    
 
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item active">
-                                <a href="#about me" class="nav-link">About me</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#Hobbies" class="nav-link">Hobbies</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#Contact" class="nav-link">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-
-        <div class="overlay">
-    <section class="text-center p-5">
-        <div class="hero">
-        <div class="container">
-            <h1>My resume</h1>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR38DtvAZtDD5UiW1h3FK21s2hp8MXRL1yNOA&s" alt="wolves">
-            <br>
-            <br>
-            <p>Hello world,My name is Ivan tan.I'm 18 years old(almost 19 years old).I'm born in penang.I like to  eat Mcdonald,Korean bbq and drinking mixue.And then, my dream job is game design.
-                I wish I could become a programmer.Last,I hope everything goes smoothly for everyone.HEHEHEHEHEHEH!🙂
-            </p>
-            <a href="#projects" class="btn btn-primary">Let's View what i done</a>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card">
+        <img src="https://media.istockphoto.com/id/482334184/photo/night-on-beijing-central-business-district-buildings-skyline-china-cityscape.jpg?s=612x612&w=0&k=20&c=gd1nunX5dLfHTAyyqTE2frn4Iw-dzyr60YqJGaK2M4U=" alt="klcc" class="card-mg-top">
+        <div class="card-body">
+            <h5 class="card-title">Beijing</h5>
+            <p class="card-text">This is a famous building called the CCTV Headquarters.It is located in Beijing.</p>
+            <a href="https://www.architecturaldigest.com/story/cctv-building-beijing-china-architecture" class="btn btn-primary" target="_blank">Learn more</a>
         </div>
     </div>
-    </section>
-    <section id="about me" class=>
-    <div class="container">
-        <h1 class="text-center">About me</h1>
-        
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL939-jGigm_2HBc3YC_icXsPIphVKaFZynQ&s" alt="Min sin">
-                    <div class="card-body">
-                        <h5 class="card-title">Primary school.</h5>
-                        <p class="card-text">This is my primary school.(2014-2019)</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXwGsfYUh8dXCoGLgS6ksSGnkoKkr1lZMiWA&s" alt="Sacred heart">
-                    <div class="card-body">
-                        <h5>High school</h5>
-                        <p class="card-text">This is my high school(2020-2025)</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://files.elfsightcdn.com/eafe4a4d-3436-495d-b748-5bdce62d911d/8febc518-ca17-4429-bbc5-4b9301af5ce0/ForwardCollege_Square_BLUE-2x.png" alt="forward college">
-                    <div class="card-body">
-                        <h5>Forward college</h5>
-                        <p class="card-text">Ya,then college I'm currently studying at.(2026-......)</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-    <section id="Hobbies">
-        <div class="container">
-            <h1 class="text-center">Hobbies</h1>
-            <img src="https://www.badmintonavenue.com/cdn/shop/files/badminton-grass-racket.webp?v=1707584672&width=1200" alt="badminton"  class="img-fluid w-50">
-            <img src="https://o.qoo-img.com/jpapps.qoo-app.com/_r/aHR0cHM6Ly9xb29hcHAtbm9ybWFsLnMzLmFwLXNvdXRoZWFzdC0xLmFtYXpvbmF3cy5jb20vZ2FtZS8yMy9ZdmhqbHZFYWo2b29LQ0N0VnJDYTR3aUVyS1BoSnRwOS5wbmc" alt="hok"  class="img-fluid w-0">
-            <br>
-            <p class="text-center">I enjoy playing badminton to stay active and healthy.</p> 
-            <p class="text-center">And then,I also like playing video games to relax and have fun.</p> 
-            
-        </div>
-    </section>
-
- <section id="Contact">
-    <div class="container">
-        <h2 class="text-center">Contact</h2>
-        <form>
-            <label for="name">Name</label>
-            <input type="text" class="form-control" placeholder="Enter your name">
-            <br>
-            <label for="email">Email</label>
-            <input type="text" class="form-control" placeholder="Enter your email">
-            <label for="message">Message</label>
-            <input type="text" class="form-control" placeholder="enter your message">
-            <br>
-            <button class="btn btn-primary">Send your message</button>
-        </form>
-    </div>
-</section>
 </div>
-<footer class="bg-dark text-white text-center p-3">
-  <p> ©2026 My Portfolio</p>
-</footer>
+</div>
+     <div class="row">
+        <div class="col-md-3">
+            <div class="card">
+                <img src="https://live.staticflickr.com/3018/2721792036_de96ffcb56_b.jpg" alt="bird" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Beijing national stadium</h5>
+                    <p class="card-text">he National Stadium[3] (国家体育场, Guójiā Tǐyùchǎng), a.k.a. the Bird's Nest (鸟巢),[4] is a stadium at Olympic Green in Chaoyang, Beijing, China.</p>
+                    <a href="https://en.wikipedia.org/wiki/Beijing_National_Stadium" class="btn btn-primary">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
 
+
+
+
+
+
+
+</div>
+        
 </body>
 </html>
